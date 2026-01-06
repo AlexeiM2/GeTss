@@ -1,0 +1,14 @@
+///En el CMD
+
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
+pip install streamlit pandas openpyxl
+
+Python -m venv venv
+
+#venv\Scripts\actívate
+
+#source venv/bin/activate
+
+streamlit.exe run .\generartss.py
+
